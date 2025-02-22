@@ -13,4 +13,7 @@ document.getElementById('cadastroForm').addEventListener('submit', function(e) {
     
     // Limpar formulário
     this.reset();
+    
+    // Redirecionar para a página de sucesso
+    window.location.href = 'cadastrado.html';
 }); 
